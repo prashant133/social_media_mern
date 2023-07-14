@@ -1,0 +1,59 @@
+#backgroundPageColor{
+  background-image: linear-gradient(#f5aaff, rgb(255, 255, 255));
+  /* height: 100vh; */
+  width: 100%;
+}
+
+.centering{
+     margin: auto;
+     width: fit-content;
+     text-align: center;
+  width: 30%;
+  border: 3px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+
+.centering img{
+    width: 25%;
+    border-radius: 95px;
+}
+
+.centering input{
+  height: 5px;
+}
+.left-bottom{
+   position:fixed;
+    bottom:50px;
+      background-color:blue;
+    color: white;
+    border: 5px solid blue;
+    border-radius: 6px;
+    left:35px;
+}
+
+.posts{
+ width: 85%;
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+    padding: 10px;
+}
+
+.editbtn{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.deletebtn{
+   position: relative;
+   font-size: x-large;
+    /* left: 400px; */
+   float: right;
+    top: 18px;
+}

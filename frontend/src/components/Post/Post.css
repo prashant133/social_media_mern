@@ -1,0 +1,83 @@
+.centerPost{
+  margin: auto;
+  width: 35%;
+  
+  border: 3px solid black;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.836);
+  padding: 10px;
+}
+
+.centerPost img{
+    width: 100%;
+    border-radius: 4px;
+    height: 450px;
+}
+/* .centerPost span{
+  position: relative;
+    top: -38px;
+    left: 300px;
+} */
+.next-to{
+ display: inline-block;
+}
+.yamin{
+   position: relative;
+    left: 10px;
+}
+.likedislike{
+   position: relative;
+  top: 8px;
+   /* margin: 6px;  */
+    font-size: x-large; 
+   float: right;
+}
+.comments-searchBar{
+   width: 50%;
+    position: relative;
+    border-radius: 30px;
+}
+
+.removeStyle{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.tag-item-post{
+    background-color: rgb(144, 211, 255);
+    display: inline-block;
+    padding: .6em .75em;
+    margin: 2px;
+    border-radius: 20px;
+}
+
+.addcommentbtn{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 9px;
+}
+.commentsbtn{
+  margin: 5px;
+  font-size: x-large;
+  position: relative;
+    top: 6px;
+}
+
+.totalComments{
+  display: flex;
+    justify-content: center;
+}
+
+.deletebtn{
+   position: relative;
+   font-size: x-large;
+    /* left: 400px; */
+   float: right;
+    top: 18px;
+}
