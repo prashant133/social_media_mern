@@ -68,7 +68,7 @@ const MainPage = () => {
                 <span className="light" onClick={changeColorToLight}><MdNightlight /> </span><span className="light">|</span>
                 <span className="light" onClick={changeColorToDark}><BsSunFill /></span>
             </div>
-            <h1 style={{ color: changeBackgroundColor ? 'white' : null }}>WELCOME TO SAFIR'S SOCIAL MEDIA APP</h1>
+            <h1 style={{ color: changeBackgroundColor ? 'white' : null }}>WELCOME TO LINKME APP</h1>
             <hr />
             {postsList.filter((searchval) => {
                 if (searchValue === '') {
